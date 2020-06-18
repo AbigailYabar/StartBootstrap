@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Baloo+Bhaijaan');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Baloo Bhaijaan', cursive;
+}
+.header {
+  background-color: #1E3F50;
+  color: white;
+  height: 70px;
+  padding: 20px;
+  padding-left: 200px;
+  
+}
+.header .container{
+  display: flex;
+  justify-content: space-between;
+
+}
+.menu   {
+  width: 50%;
+}
+.menu .list{
+  display: flex;
+  justify-content: space-around;
+}
+.menu .list li{
+  margin: 5px;
+  padding:5px;
+  list-style: none;
+
+}
+.link{
+  color: #fff;
+  text-decoration: none;  
+} 
+.page-name{
+  width: 50%;
+
+  /* position: absolute; */
+}
+.hero {
+  background-color: #2BD49E;
+  text-align: center;
+  color: #fff;
+  padding: 50px;
+}
+.portafolio {
+  text-align: center;
+  padding: 50px;
+}
+.container.boxes  {
+  border: 1px ;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+
+}
+.div-img  {
+  width: 30%;
+  height: auto;
+}
+/* .div-img img:hover{
+  filter: blur(2px);
+  background-color:#2BD49E ;
+  
+} */
+.lol{
+  background: #333;
+  width: 25%;
+  padding: 16PX;
+  height: 234px;
+  position: absolute;
+  display: none;
+}
+.div-img:hover .lol{
+  display:block;
+}
+.div-img img{
+  width: 100%;
+  height: auto;
+}
+.about  {
+  width: 100%;
+  height: auto;
+  background-color: #2BD49E;
+  color: #fff;
+  text-align: center;
+  /* padding: 50px; */
+  
+}
+.block  {
+  width: 50%;
+    display: flex;
+    justify-content: space-between;
+    /* align-self: center; */
+    margin: auto;
+    text-align: left;
+}
+div.box{
+  display: flex;
+  width: 45%;
+  
+}
+.box-form{  
+  width: 60%;
+  margin: auto;
+}
+.box-form input {
+  height: 60px;
+  border: none;
+  border-top: solid 1px #dddddd;
+  background-color: white;
+  width: 100%;
+  display: block;
+  /* border-bottom: 1px #000 solid; */
+  margin-bottom: 5px
+}
+
+.contact {
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  position: relative;
+
+}
+h2 {
+  text-align: center;
+  font-size: 50px;
+}
+.box-coment{    
+  border: none;
+  border-top:solid 1px #dddddd;
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border-bottom:1px solid #dddddd ;
+  margin-bottom:15px;
+
+}
+.btn  {
+  width: 60px;
+  background: #2BD49E;
+  border: 1px solid white;
+  height: 30px;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 50px;
+}
+.foot{
+  width: 100%;
+  height: 250px;
+  background-color: #1E3F50;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  
+
+}
+.data {
+  border: 1px;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+  
+}
+
+.footer{
+  height: 50px;
+  margin: 0 auto;
+  padding: 14px;
+  text-align: center;
+  background-color: #183240;
+  color: white;
+
+}
